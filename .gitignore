@@ -15,3 +15,7 @@
 # Python
 __pycache__/
 *.pyc
+
+# 覆盖全局 ~/.gitignore 中的 AGENTS.md 排除：本仓库的 AGENTS.md 是 wiki schema，必须入库
+# （全局 core.excludesFile 优先级最低，此处的反排除规则生效）
+!/AGENTS.md
